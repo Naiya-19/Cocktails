@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CockTails</title>
+    <style>
+        .wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        border: 5px solid #0CB04A;
+      }
+
+      .box {
+        flex: 0 0 500px;
+        height: 270px;
+        background-color: #0A7533;
+        margin: 5px;
+        font-size: xx-large;
+        font-family: 'Calibri';
+        color: whitesmoke;
+        box-sizing: border-box;
+        padding: 2px;
+        margin: 2px;
+        font-size: medium;
+      }
+      h1 {
+        width: 100%;
+        background-color: #A92921;
+        color: whitesmoke;
+        text-align: center;
+        font-size: xx-large;
+        font-family: Helvetica;
+      }
+      .cocktail_pic {
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .care {
+        float: right;
+        margin-right: 3px;
+        font-size: medium;
+        font-weight: bold;
+        width: 50%;
+      }
+    </style>
+    <script src="./lib/jquery-3.7.1.js"></script>
+    <script src="cocktail_info.js"></script>
+    <script src="cocktail.js"></script>
+</head>
+<body>
+    <h1>CockTail Cart</h1>
+    <p>Click for calories, mouse over for recipe</p>
+
+    <div class="wrapper">
+    </div>
+
+</body>
+</html>
